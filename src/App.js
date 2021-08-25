@@ -6,9 +6,8 @@ import MyBadge from './components/MyBadge'
 function App() {
   return (
     <div>
-      /*Component of WARNINGSIGN*/
-      <WarningSign text="Warning,something is wrong" />
-      <MyBadge text="Success" color="success" />
+      <WarningSign text="Something is wrong" />
+      <MyBadge text="Hello" color="success" />
     </div>
   );
 }
